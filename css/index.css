@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lobster|Megrim|Pompiere|Yesteryear');
+#logo{
+    margin-left: 45%; 
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-family: 'Yesteryear';
+    margin-top: 20px;
+    transition: 1s ease;
+}
+#logo:hover{
+    background-color: #111;
+    transition: 1s ease;
+    color: green;
+}
+#logo h4{
+    padding-top: 35px;
+    text-align: center;
+}
+#divheader h1{
+    font-family: 'Megrim';
+    text-align: center;
+    font-weight: bold;
+}
+#navheader{
+    padding: 10px;
+}
+#navlinks{
+   text-align: center; 
+}
+#navlinks a{
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 10px;
+    font-family: Lobster;
+    font-size: 1.2em;
+    color: black;
+}
+#navlinks a:hover{
+    color: green;
+}
+#navheader hr{
+    width: 50%;
+}
+.parallax{
+    background-image: url("images/backgrounds/image1.jpg");
+    height: 50%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about hr, .books hr{
+    width: 25%;
+    transition: 1s ease;
+}
+.books hr{
+    border: 0.5px solid #999;
+}
+.about hr:hover, .books hr:hover{
+    width: 45%;
+    transition: 1s ease;
+}
+.about, .books{
+    text-align: center;
+}
+.about{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.about a{
+    color: white;
+}
+.about a:hover{
+    color: #999;
+}
+.books{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.books span{
+    font-family: 'Yesteryear';
+    font-size: 1.5em;
+}
+.about p{
+    font-size: 1.7em;
+    font-family: 'Pompiere';
+    font-weight: bold;
+
+}
+.collection_images img{
+    margin-left: 3%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+.collection_images img:hover{
+    opacity: 0.7;
+    border-radius: 0;
+    -webkit-transition: 1s ease duration timing-function delay;
+    -moz-transition: 1s ease duration timing-function delay;
+    transition: 1s ease duration timing-function delay;
+}
+.footer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about h1, .books h1, h3{
+    font-family: 'Yesteryear';
+}
+.footer .fa{
+    font-size: 1.5em;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: 1s ease;
+    margin-left: 10px;
+}
+.fa-twitter, .fa-instagram{
+    padding: 15px 15px;
+}
+.fa-facebook{
+    padding: 15px 20px;
+}
+.fa:hover{
+    color: #999;
+    background-color: #333;
+    text-decoration: none;
+    transition: 1s ease;
+}
+.footer hr{
+    width: 20%;
+    border: 0.5px solid #999;
+}
+.more{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    padding-left: 3%;
+}
+.more a{
+    color: black;
+    transition: 1s ease;
+}
+.more a:hover{
+    color: green;
+    text-decoration: none;
+    transition: 1s ease;
+}
