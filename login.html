@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="javascript/login.js"></script>
+    </head>
+
+    <body>
+        <div class="bodydiv">
+            <img src="images/backgrounds/image1.jpg">
+        </div>
+        <div class="loginContent">
+            <h1><a href="index.html">Books-are-us</a></h1>
+            <div class="login" id="login">
+                <h2>Log In</h2>
+                <form class="loginForm">
+
+                    <input id="name" type="text" placeholder="Enter username" required="*"><br><br>
+
+                    <input id="password" type="password" placeholder="Enter password"><br><br>
+
+                    <button type="submit" id="btnLogin"><a href="#">Login</a></button>
+                </form>
+                <p>Don't have an account?
+                    <u><span onclick="display('signup')">Sign Up</span></u>
+                </p>
+            </div>
+            <div class="signup" id="signup">
+                <h2>Sign Up</h2>
+                <form id="registrationForm" nonvalidate>
+                    <label for='"name"'>Name:</label>
+                    <input id="name" type="text" required="*"><br><br>
+
+                    <label for='"username"'>Username:</label>
+                    <input id="name" type="text" required="*"><br><br>
+
+                    <label for='"email"'>Email:</label>
+                    <input id="email" type="email" required="*"><br><br>
+
+                    <label for='"password"'>Password:</label>
+                    <input id="password" type="password" placeholder="Enter password"><br><br>
+
+                    <label for='"password"'>Confirm Password:</label>
+                    <input id="cPassword" type="password" placeholder="Re-enter password"><br><br><br>
+
+                    <button type="submit">Sign Up</button>
+                </form><br>
+                <p>Already have an account?
+                    <u><span onclick="display('login')">Log in</span></u>
+                </p>
+            </div>
+        </div>
+    </body>
+
+</html>
