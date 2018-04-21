@@ -1,0 +1,9 @@
+div.myheader{
+    background-color: #111;
+    
+    height: 70px
+}
+.myheader a{
+    float: right;
+    color: white;
+}

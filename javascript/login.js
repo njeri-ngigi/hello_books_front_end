@@ -1,6 +1,6 @@
 function display(id) {
 
-  if (id == "login") {
+  if (id == "edit_profile") {
     document.getElementById("signup").style.display = "none";
   }
   if (id == "signup") {

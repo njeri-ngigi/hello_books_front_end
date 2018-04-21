@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Barrio|Ceviche+One|Megrim|Pompiere|Yesteryear');
+.sidenav{
+    position: fixed;
+    overflow: auto;
+	height: 100%;
+	width: 400px;
+	z-index: 1;
+	left: 0;
+	box-shadow: 1px 1px 3px grey;
+    text-align: center;
+    -webkit-transition: .5s ease; 
+    -moz-transition: .5s ease;
+    transition: .5s ease;
+}
+.sidenav:hover{
+    box-shadow: 3px 3px 3px grey;
+    -webkit-transition: 1s ease; 
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+}
+.main{
+    margin-left: 415px;
+    padding: 2%;
+}
+.sidenav h3, .sidenav label{
+    font-family: "Yesteryear";
+}
+.padding{
+    padding-top: 30px;
+    font-size: 1.3em;
+}
+#profile_details, .edit_profile span{
+    font-family: "Pompiere";
+    font-weight: bolder;
+}
+.edit_profile span:hover{
+    cursor: pointer;
+    color: green;
+    opacity: 0.8;
+}
+.sidenav img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px grey;
+}
+.sidenav img:hover{
+	opacity: 0.8;
+}
+.sidenav button{
+	padding: 10px 40px;
+	border: none;
+	color: white;
+    background-color: black;
+    font-family: "Amatic SC";
+}
+.sidenav button:hover{
+    background-color: green;
+    opacity: 0.5;
+}
+.edit_password{
+    display: none;
+}
+.edit_profile{
+    display: none;
+}
+.sidenav input{
+    font-family: "Pompiere";
+    color: green;
+    border: none;
+    text-align: center;
+}
+.sidenav input:focus{
+    border-bottom: 3px solid green;
+    transition: 1s ease;
+}
+.book_image{
+    height: 200px;
+    width: 300px;
+    box-shadow: 1px 1px 3px grey;
+}
+.book_image:hover{
+
+    box-shadow: 5px 5px 5px grey;
+}
+.image img{
+    height: 200px;
+    width: 130px;
+}
+.image img:hover{
+    opacity: 0.7;
+}
+.image_description{
+    padding: 10px;
+    font-family: "Pompiere";
+}
+.row{
+    overflow-x: auto;
+}

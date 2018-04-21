@@ -1,0 +1,23 @@
+#history{
+	width: 100%;
+}
+#history td, #history th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#history tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+#history th{
+	background-color: black;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+.content{
+	margin-top: 10px;
+}
+.fa-close{
+    color: red;
+}
