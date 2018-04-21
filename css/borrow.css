@@ -1,0 +1,29 @@
+img{
+	height: 400px;
+	width: 300px;
+}
+button{
+	padding: 10px 20px;
+	width: 18%;
+	border: none;
+	color: white;
+	background-color: #222;
+	font-family: Amatic SC;
+	font-size: 1.3em;
+    text-align: center;
+    margin-right: 3%;
+}
+button:hover{
+    background-color: green;
+    opacity: 0.9;    
+}
+
+.my_content{
+    height: 500px;
+    width: 80%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+.button_pad{
+    margin-top: 20px;
+}
