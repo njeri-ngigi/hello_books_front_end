@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lobster|Megrim|Pompiere|Yesteryear');
+body{
+    font-weight: bolder;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Megrim";
+    font-weight: bolder;
+}
+.book-links span{
+    padding: 30px 30px;
+    margin-left: 8%;
+    cursor: pointer;
+    font-family: "Yesteryear";
+    font-size: 1.3em;
+}
+.book-links span:hover{
+    color: green;
+}
+.book_image{
+    height: 200px;
+    width: 300px;
+    box-shadow: 1px 1px 3px grey;
+}
+.book_image{
+    height: 36%;
+    width: 120%;
+    box-shadow: 1px 1px 3px grey;
+}
+.book_image:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+.image img{
+    height: 200px;
+    width: 130px;
+}
+.image img:hover{
+    opacity: 0.7;
+}
+.image_description{
+    width: 50%;
+    font-family: "Pompiere";
+    
+}
+.image_description p{
+    padding-left: 23%;
+    padding-top: 8%;
+}
+.all_books{
+    padding-left: 5%;
+    padding-right: 8%;
+    font-size: 1.2em;
+}
+.all_books div{
+    padding-left: 5%;
+}
+.all_books h4{
+    font-family: "Lobster";
+
+}
+#articles, #academia{
+    display: none;
+}
+.row{
+    margin-bottom: 20px;
+}

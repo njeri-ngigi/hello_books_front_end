@@ -1,0 +1,45 @@
+.top{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    float: right;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    padding-top: 10px;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+}
+.top a{
+    font-family: "Yesteryear";
+    font-size: 1.5em;
+    color: white;
+    padding-top: 50px;
+}
+.top:hover{
+    background-color: green;
+    opacity: 0.8;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+}
+.top a:hover{
+    text-decoration: none;
+}
+
+.fa-close{
+    color: black;
+    font-size: 1.5em;
+    float: right;
+    margin-right: 10%;
+    padding-top: 30px;
+}
+.fa-close:hover{
+    color: green;
+    opacity: 0.5;
+    text-decoration: none;
+}

@@ -6,5 +6,8 @@ function display(id) {
   if (id == "signup") {
     document.getElementById("login").style.display = "none";
   }
+  if (id == "login") {
+    document.getElementById("signup").style.display = "none";
+  }
   document.getElementById(id).style.display = "block";
 }

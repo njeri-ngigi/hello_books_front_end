@@ -1,29 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Barrio|Ceviche+One|Megrim|Pompiere|Yesteryear');
-.sidenav{
-    position: fixed;
-    overflow: auto;
-	height: 100%;
-	width: 400px;
-	z-index: 1;
-	left: 0;
-	box-shadow: 1px 1px 3px grey;
+.profile{
     text-align: center;
-    -webkit-transition: .5s ease; 
-    -moz-transition: .5s ease;
-    transition: .5s ease;
+    padding-top: 50px;
 }
-.sidenav:hover{
-    box-shadow: 3px 3px 3px grey;
-    -webkit-transition: 1s ease; 
-    -moz-transition: 1s ease;
-    transition: 1s ease;
-}
-.main{
-    margin-left: 415px;
-    padding: 2%;
-}
-.sidenav h3, .sidenav label{
+
+.profile h3, .profile label{
     font-family: "Yesteryear";
+}
+.profile h1{
+    font-family: "Megrim";
+    font-weight: bolder;
 }
 .padding{
     padding-top: 30px;
@@ -38,23 +24,23 @@
     color: green;
     opacity: 0.8;
 }
-.sidenav img{
+.profile img{
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
 	box-shadow: 1px 1px 3px grey;
 }
-.sidenav img:hover{
+.profile img:hover{
 	opacity: 0.8;
 }
-.sidenav button{
+.profile button{
 	padding: 10px 40px;
 	border: none;
 	color: white;
     background-color: black;
     font-family: "Amatic SC";
 }
-.sidenav button:hover{
+.profile button:hover{
     background-color: green;
     opacity: 0.5;
 }
@@ -64,13 +50,13 @@
 .edit_profile{
     display: none;
 }
-.sidenav input{
+.profile input{
     font-family: "Pompiere";
     color: green;
     border: none;
     text-align: center;
 }
-.sidenav input:focus{
+.profile input:focus{
     border-bottom: 3px solid green;
     transition: 1s ease;
 }
@@ -94,6 +80,4 @@
     padding: 10px;
     font-family: "Pompiere";
 }
-.row{
-    overflow-x: auto;
-}
+

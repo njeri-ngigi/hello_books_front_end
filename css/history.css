@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lobster|Megrim|Pompiere|Yesteryear');
+h1{
+	padding-top: 20px;
+    font-family: "Megrim";
+	font-weight: bolder;
+	text-align: center;
+}
 #history{
 	width: 100%;
+	font-family: "Pompiere";
+	font-weight: bolder;
+	font-size: 1.2em;
 }
 #history td, #history th{
 	border: 1px solid #ddd;
@@ -13,11 +23,24 @@
 	color: white;
 	padding-top: 15px;
 	padding-bottom: 15px;
-
+}
+#history tr{
+	height: 70px;
 }
 .content{
 	margin-top: 10px;
+	padding: 3%;
 }
-.fa-close{
-    color: red;
+button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #111;
+    border: none;
+}
+button:hover{
+    opacity: 0.5;
+    background-color: green;
+}
+.fa{
+	margin-right: 10%;
 }

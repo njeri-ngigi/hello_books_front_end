@@ -1,9 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lobster|Megrim|Pompiere|Yesteryear');
 div.myheader{
-    background-color: #111;
-    
-    height: 70px
+    text-align: center;
 }
-.myheader a{
-    float: right;
+.column{
+    width: 20%;
+    float: left;
+    height: 100px;
+}
+.column h2{
+    font-family: "Megrim";
+    font-weight: bolder;
+    padding-top: 10px; 
+}
+.column a{
+    color: black;
+    font-family: "Yesteryear";
+    font-size: 1.3em;
+}
+.column a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: green;
+}
+.pad-top{
+    padding-top: 40px;
+}
+.prof_pad{
+    padding-top: 38px;
+}
+.parallax{
+    background-image: url("../images/backgrounds/image1.jpg");
+    height: 60%;
+    width: 103%;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.floating_div{
+    width: 50%;
+    height: 150px;
+    box-shadow: 1px 1px 1px 1px #888;
+    margin-left: 23%;
+    margin-top: -5%;
+    z-index: 99;
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    overflow: hidden;
+    font-size: 1.5em;
+}
+.book_image{
+    height: 36%;
+    width: 120%;
+    box-shadow: 1px 1px 3px grey;
+}
+.book_image:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+.image img{
+    height: 200px;
+    width: 130px;
+}
+.image img:hover{
+    opacity: 0.7;
+}
+.image_description{
+    width: 50%;
+    font-family: "Pompiere";
+    
+}
+.image_description p{
+    padding-left: 23%;
+    padding-top: 8%;
+}
+.suggested_books{
+    padding: 5%;
+}
+.suggested_books div{
+    padding-left: 5%;
+}
+.suggested_books h2{
+    font-family: "Yesteryear";
+    padding-left: 5%;
+}
+.suggested_books h4{
+    font-family: "Lobster";
+    padding-left: 5%;
+}
+.floating_div .fa{
+    font-size: 2em;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+}
+.floating_div a{
+    color: black;
+    text-decoration: none;
+}
+.floating_div h5{
+    font-family: "Yesteryear";
+    font-size: 1.1em;
+    
+}
+.column .fa-user-circle{
+    font-size: 1.5em;
+}
+.fa-power-off:hover{
+    color:red;
+    opacity: 0.8; 
+}
+.fa-thumbs-up:hover{
+    color: green;
+}
+.fa-angellist:hover{
+    color: blue;
+}
+textarea{
+    border: none;
+    border-bottom: 1px solid #888;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+    color: green;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+    padding-top: 50px;
+    font-family: "Yesteryear";
+    font-size: 1.3em;
+}
+textarea:focus{
+    width: 40%;
+    padding-top: 5px;
+    font-family: "Pompiere";
+    
+}
+#contact_us{
+    text-align: center;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+}
+.contact-form button{
     color: white;
+    background-color: #111;
+    width: 10%;
+    padding: 15px;
+    border: none;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+    font-size: 1.3em;
+}
+button:hover{
+    background-color: green;
+    opacity: 0.6;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+}
+#footer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#footer h3{
+    font-family: "Megrim";
+    font-weight: bolder;
+}
+#footer .fa{
+    font-size: 1.5em;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: 1s ease;
+    margin-left: 10px;
+}
+.fa-twitter, .fa-instagram{
+    padding: 15px 15px;
+}
+.fa-facebook{
+    padding: 15px 20px;
+}
+#footer .fa:hover{
+    opacity: 0.7;
+    text-decoration: none;
+    transition: 1s ease;
+}
+#footer hr{
+    width: 70%;
+    border: 0.5px solid #999;
+    -webkit-transition: 2s ease;
+    -moz-transition: 2s ease;
+    transition: 2s ease;
+}
+#footer hr:hover{
+    width: 103%;
+    -webkit-transition: 2s ease;
+    -moz-transition: 2s ease;
+    transition: 2s ease;
 }
