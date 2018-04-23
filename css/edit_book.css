@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lobster|Megrim|Pompiere|Yesteryear');
+form input{
+    border: none;
+    border-bottom: 1px solid #999;
+    width: 100%;
+    height: 60px;
+    padding-left: 4%;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+    color: green;
+    font-family: "Pompiere";
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+form input:focus{
+    padding-top: 2%;
+}
+form label{
+    width: 50%;
+    font-size: 1.2em;
+    font-family: "Lobster"
+}
+.edit-book-content{
+    padding: 5%;
+    padding-top: 10%;
+    margin-left: 9%;
+}
+.edit-image{
+    padding-left: 5%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+.edit-book-content button{
+    border: none;
+    min-width: 200px;
+    width: 20%;
+    height: 50px;
+    color: white;
+    background-color: #111;
+}
+.edit-book-content button:hover{
+    background-color: green;
+    opacity: 0.5;
+}

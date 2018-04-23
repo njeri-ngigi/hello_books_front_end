@@ -1,0 +1,21 @@
+ p .fa-trash, p .fa-edit{
+    font-size: 1.8em;
+    margin-left: 10px;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+}
+p{
+    overflow: hidden;
+}
+.all_books a{
+    color: black;
+}
+.all_books a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.fa-trash:hover{
+    color: red;
+    opacity: 0.6;
+}
